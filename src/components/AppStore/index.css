@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bg-container {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  width: 100vw;
+}
+
+.heading {
+  font-family: 'bree serif';
+  font-size: 45px;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 30px;
+}
+
+.input {
+  padding: 8px;
+  outline: none;
+  font-size: 17px;
+  border: none;
+  width: 100%;
+}
+.search-part {
+  display: flex;
+  width: 20%;
+  align-items: center;
+  background-color: #ffffff;
+  justify-content: space-between;
+  border: 1px solid #1e293b;
+}
+.search-logo {
+  width: 28px;
+}
+
+.all-tabs {
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+  margin-left: 268;
+}
+
+.app-items {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  justify-content: center;
+}

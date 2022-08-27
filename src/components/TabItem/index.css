@@ -1,0 +1,23 @@
+.button {
+  color: #7b8794;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.tab-item {
+  list-style-type: none;
+  color: #7b8794;
+  margin-right: 30px;
+}
+
+.btn-active {
+  color: #2563eb;
+  border: 2px solid;
+  border-color: #2563eb;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  animation: btnItem 0.1s;
+  transform: scale(1.2);
+}
